@@ -5,17 +5,6 @@
 
 package patohunter.coisas;
 
-/**
- *
- * @author Paulo Mário
- */
-public class Ambiente {
-
-    public void inicio(){
-
-
-    }
-
 
 
 import java.awt.Color;
@@ -33,7 +22,7 @@ import patohunter.ferramentas.TimerListener;
  *
  * @author Paulo Mário
  */
-public class Ambiente extends JPanel implements TimerListener {
+public abstract class Ambiente extends JPanel implements TimerListener {
 
     public Ambiente() {
         this.setBackground(Color.BLACK);
